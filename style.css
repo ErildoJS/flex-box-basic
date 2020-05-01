@@ -1,0 +1,50 @@
+.app {
+
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background: #f00;
+    margin: 5px;
+}
+
+/*
+    display: flex - alinha horizontalmente, colocado sempre no elemento pai
+
+    prpriedades de elementos pai: 
+
+    flex-direction: - direcao dos elementos
+        -row - linha
+        -column - colluna
+        -row-reverse - linha de forma reverca
+        -column-reverse - coluna de forma reverca
+
+    align-items: alinha verticalmente (sempre que tiver row)
+        - flex-start - 
+        - flex-end - 
+        -center - 
+
+    justify-content - alinha horizontalmente
+        - space-between - espaco entre elementos
+        - space-around - espaco a volta
+
+    flex-wrap - quebra os elementos
+        - wrap - quebra
+        - wrap-reverse - 
+
+    align-content - alinha os elementos quando estao em mais de 1 linha quebrada(verticalmente)
+        -mesmo do justify-content
+
+    propriedades dos filhos
+
+    flex-grow - crecimento dos elementos
+        - 1 - os elementos ocupam todo espaco disponivel(auemnta para caber no elemento pai)
+
+    flex-shrink - dis se o elemento tem a capacide de encolher pra caber no container
+
+    flex - abreviacao de grow e shrink
+
+    order - ordena elementos
+        - 1 - 
+*/
